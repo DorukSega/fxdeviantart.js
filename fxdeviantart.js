@@ -42,6 +42,7 @@ app.get('/*', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         try { //this is basically for if body is not json OR http request returns nothing significant
             const data = yield body.json(); //jsonify
             printc(`Rendering "${origin}"`); //tell server manager that we are rendering something
+            res.type('text/html');
             res.send((0, nunjucks_1.render)('templates/index.html', { img: data['url'], url: origin, desc: data['title'] })); //return the the template
         }
         catch (error) { //error can be used if wanted

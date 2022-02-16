@@ -32,6 +32,7 @@ app.get('/*', async (req: FastifyRequest, res: FastifyReply) => {
         try { //this is basically for if body is not json OR http request returns nothing significant
             const data = await body.json(); //jsonify
             printc(`Rendering "${origin}"`); //tell server manager that we are rendering something
+            res.type('text/html');
             res.send(render('templates/index.html', { img: data['url'], url: origin, desc: data['title'] })); //return the the template
         } catch (error) { //error can be used if wanted
             res.send("Error Failed to Retrive Image"); //these can be changed to error templates as well, if they don't work
