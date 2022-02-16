@@ -22,4 +22,4 @@ Original code is written by [Robin Universe](https://github.com/robinuniverse)
 Typescript file is located at [/src/fxdeviantart.ts](https://github.com/DorukSega/fxdeviantart.js/blob/master/src/fxdeviantart.ts)
 you can edit through there and run `tsc` on the project root to compile it to a [JS file](https://github.com/DorukSega/fxdeviantart.js/blob/master/fxdeviantart.js).
 
-Which you can run as suggested in [Installation](#installation) .
+Which you can run as suggested in [Installation](#installation).
