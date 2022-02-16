@@ -4,7 +4,7 @@ This is a port of [fxDeviantArt](https://github.com/robinuniverse/fxdeviantart) 
 Written in [TypeScript](https://github.com/DorukSega/fxdeviantart.js/blob/master/src/fxdeviantart.ts) and compiled to a [JS file](https://github.com/DorukSega/fxdeviantart.js/blob/master/fxdeviantart.js).  
 
 Original code is written by [Robin Universe](https://github.com/robinuniverse)
-## Usage
+## Installation
 1. Clone the repo
 2. Run `npm install` on the project root
 3. Run `node fxdeviantart.js` to start the server
@@ -22,4 +22,4 @@ Original code is written by [Robin Universe](https://github.com/robinuniverse)
 Typescript file is located at [/src/fxdeviantart.ts](https://github.com/DorukSega/fxdeviantart.js/blob/master/src/fxdeviantart.ts)
 you can edit through there and run `tsc` on the project root to compile it to a [JS file](https://github.com/DorukSega/fxdeviantart.js/blob/master/fxdeviantart.js).
 
-Which you can run as suggested in [usage section](#usage) 
+Which you can run as suggested in [Installation](#installation) .
